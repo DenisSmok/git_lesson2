@@ -27,11 +27,21 @@ public class App {
 
     }
 
+
     private int q;
     private int w;
 
     public int getSubstract(int q, int w) {
         return q - w;
-    }}
+    }
     
+
+
+    private int v;
+    private int n;
+
+    public int getmult(int v, int n) {
+        return v * n;
+    }
+}
 
