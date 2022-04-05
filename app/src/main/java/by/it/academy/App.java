@@ -4,11 +4,21 @@
 package by.it.academy;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println("First commit");
+        System.out.println("sum a+b");
     }
+    private int a;
+    private int b;
+    public int getSum(int a, int b){
+        return a+b;
+
+    }
+    private int c;
+    private int d;
+    public int getSumcd(int c, int d){
+        return c+d;
+
 }
