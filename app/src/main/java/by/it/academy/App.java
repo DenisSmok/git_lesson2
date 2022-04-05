@@ -10,15 +10,28 @@ public class App {
         System.out.println("First commit");
         System.out.println("sum a+b");
     }
+
     private int a;
     private int b;
-    public int getSum(int a, int b){
-        return a+b;
+
+    public int getSum(int a, int b) {
+        return a + b;
 
     }
+
     private int c;
     private int d;
-    public int getSumcd(int c, int d){
-        return c+d;
 
-}
+    public int getSumcd(int c, int d) {
+        return c + d;
+
+    }
+
+    private int q;
+    private int w;
+
+    public int getSubstract(int q, int w) {
+        return q - w;
+    }}
+    
+
