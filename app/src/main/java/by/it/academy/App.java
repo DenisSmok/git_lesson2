@@ -27,6 +27,7 @@ public class App {
 
     }
 
+
     private int q;
     private int w;
 
@@ -34,12 +35,26 @@ public class App {
         return q - w;
     }
 
+
+
+
     private int p;
     private int o;
 
     public int getDevide(int p, int o) {
         return p / o;
     }
-}
+
+
+
     
+
+
+    private int v;
+    private int n;
+
+    public int getmult(int v, int n) {
+        return v * n;
+    }
+}
 
