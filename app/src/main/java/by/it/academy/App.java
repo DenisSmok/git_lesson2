@@ -32,6 +32,14 @@ public class App {
 
     public int getSubstract(int q, int w) {
         return q - w;
-    }}
+    }
+
+    private int p;
+    private int o;
+
+    public int getDevide(int p, int o) {
+        return p / o;
+    }
+}
     
 
